@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FDC96DA3-1163-4010-BCE5-1E8C0B92F0F4}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ServiceTypeDict_Inspection.cs">
+    <Files>
+      <File FileName="Context/RepairShopDbContext.cs" Line="27" Column="1" />
+      <File FileName="Models/ServiceTypeDict_Inspection.cs" Line="14" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Test2" expanded="True">
+            <Node name="Test2" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Test2 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -11,7 +11,13 @@ public class RepairShopDbContext : DbContext
     public RepairShopDbContext(DbContextOptions options) : base(options)
     {
     }
-    
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        base.OnConfiguring(optionsBuilder);
+        optionsBuilder.UseSqlServer("Data Source=db-mssql16.pjwstk.edu.pl; Initial Catalog=s18614;Integrated Security=True");
+    }
+
     public DbSet<Models.Car> Cars { get; set; }
     public DbSet<Models.Mechanic> Mechanics { get; set; }
     public DbSet<Models.Inspection> Inspections { get; set; }

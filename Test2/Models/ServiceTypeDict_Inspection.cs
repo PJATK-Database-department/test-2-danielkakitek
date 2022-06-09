@@ -11,7 +11,7 @@ public class ServiceTypeDict_Inspection
     [ForeignKey("IdServiceType")]
     public ServiceTypeDict ServiceTypeDict { get; set; }
 
-    [Key]
+    
     public int IdInspection { get; set; }
 
     [ForeignKey("IdInspection")]
